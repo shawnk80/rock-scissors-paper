@@ -16,7 +16,7 @@ We'll handle the game logic on the front end, so all our backend will have to do
 - Computer Throw 
 
 ## Release 2: User Profile
-Use `create-react-app` to create a new front end for our rock, scissors, paper game. After a user logs into the site they should be taken to a profile page that has the following: 
+Use `create-react-app` to create a new front end for our rock, scissors, paper game. The main page should have the following: 
 - Their username 
 - The number of games they've won so far
 - The number of games they've lost so far 

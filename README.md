@@ -4,7 +4,7 @@ We are going to create a simple applicaiton that allows users to play quick game
 
 ## Release 0: Setup 
 - Create a `venv` and install Django. 
-- Start a new Djanto project `django-admin startproject rock_scissors_paper`. 
+- Start a new Django project `django-admin startproject rock_scissors_paper`. 
 - Setup your postgresql database using `psycopg2`. 
 - Create an app for our game `py manage.py startapp game`
 

@@ -1,6 +1,14 @@
 # Rock Scissors Paper
 
-We are going to create a simple applicaiton that allows users to play quick games of [Rock, Scissors, Paper](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors). Our schema for this one will be fairly simple. A User can have many Games, and a Game belongs to a User. 
+We are going to create a simple applicaton that allows users to play quick games of [Rock, Scissors, Paper](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors). Our schema for this one will be fairly simple. A User can have many Games, and a Game belongs to a User. 
+
+## Release -1: (Stretch goal) Authentication, Multiplayer
+
+Authentication is easier done in the beginning.
+
+We authenticated before using full-stack Django, but using separate front-ends and back-ends communicating through an API becomes a much lengthier process. [This tutorial](https://medium.com/@dakota.lillie/django-react-jwt-authentication-5015ee00ef9a) will help you.
+
+Keep in mind, multi-player rock paper scissors shouldn't follow what we've written below for single-player, so feel free to make your own design choices. Luckily, this isn't the most complicated game; keep it simple, you can do it!
 
 ## Release 0: Setup 
 - Create a `venv` and install Django. 
